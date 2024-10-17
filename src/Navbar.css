@@ -1,0 +1,49 @@
+.navbar{
+    background: linear-gradient(blue,black);
+    color: white;
+}
+#navbarSupportedContent ul li a{
+    color: white;
+}
+.dropdown-menu {
+    background: linear-gradient(blue,black);
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: rgb(6, 6, 6);
+}
+.project-Title{
+    padding-right: 30px;
+    color: gold;
+    font-size: 40px;
+    border-bottom: 10px solid gold;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 10px;
+}
+#navbarSupportedContent .nav-link:hover{
+    background-color: black;
+}
+.active{
+    background-color: black;
+    border-bottom: 3px solid blue;
+}
+.dropdown .active{
+    background-color: black;
+    border-bottom: 3px solid blue;
+}
+.user{
+text-align:center;
+align-items:center;
+font-size:20px;
+padding-left: 10px;
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1230px){
+    .user{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 504px){
+    .user{
+        font-size:10px;
+        }
+}

@@ -1,0 +1,40 @@
+.hmFooter{
+    background: linear-gradient(blue,black);
+    color:white;
+}
+
+.projectTitle{
+    color: gold;
+    font-size: 50px;
+    border-bottom: 10px solid gold;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 10px;
+}
+#footerLinks p a{
+    text-decoration: none;
+    color: white;
+}
+.footerSocialIcon{
+    margin: 20px 0px;
+}
+.footerSocialIcon a i {
+    background: #F44770;
+    color: #fff;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 22%;
+    margin: 0px 5px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.footerSocialIcon a i:hover {
+    background: #fff;
+    color: #000000;
+}
+
+
+@media only screen and (max-width: 992px){
+    #Footer{
+        text-align: center;
+    }
+}

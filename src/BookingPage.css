@@ -1,0 +1,66 @@
+
+#BookingPage{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #4d8ef0;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 8px 16px black,
+    -10px -8px 16px black;
+  }
+  
+ #BookingTitle h1 {
+    font-size: 2.5rem;
+    color: whitesmoke;
+    margin-bottom: 15px;
+  }
+  
+  #BookingTitle p {
+    color: white;
+    font-size: 1.1rem;
+  }
+  
+  .form-label {
+    font-weight: 600;
+    color: white;
+  }
+  
+  .detail, .form-select {
+    border: none;
+    outline:none;
+    background: whitesmoke;
+    font-size: 18px;
+    color:black;
+    padding: 20px 10px 20px 5px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+    transition: border-color 0.3s;
+  }
+
+  
+  .form-control:focus, .form-select:focus {
+    border-color: #3498db;
+    box-shadow: none;
+  }
+  
+  #BookingBtn{
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #c0f262;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #BookingBtn:hover {
+    background-color: #2ecc71;
+  }
+  .errors{
+    color: yellow;
+  }
+  
+ 
+  
+
+
+  
+  

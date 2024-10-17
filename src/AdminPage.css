@@ -1,0 +1,24 @@
+#adminPageBtn{
+    background-color: blue;
+    width: 10%;
+}
+#hotel6star, #hotel5star, #hotel4star{
+    background-color: beige;
+}
+#adminPage div{
+align-items: center;
+}
+#adminPage img{
+    width: 200px;
+    height: 100px;
+}
+@media only screen and (max-width: 992px){
+    #adminPage #row1Heading, #row2Heading, #row3Heading{
+        display: none;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1100px){
+    #adminPage img{
+        width:165px;
+    }
+}

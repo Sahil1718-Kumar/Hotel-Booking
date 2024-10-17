@@ -1,0 +1,43 @@
+#Open{
+    display: flex;
+    padding-left: 20%; 
+    height: 100vh;
+    background: url("https://i.pinimg.com/originals/e1/91/a8/e191a896209c083e069cc0c99b8c003d.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#openTitle{
+    font-size: 10rem;
+    height: 13rem;
+    margin-top: 4%;
+    align-items: center;
+    border-bottom: 10px solid gold;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 10px;
+    color: gold;
+    overflow: hidden;
+    animation: title 3s linear forwards;
+    white-space: nowrap; 
+}
+
+@keyframes title {
+    from {
+        width: 0;
+    }
+    to {
+        width: 950px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #openTitle{
+      font-size: 4rem;
+      margin-top: 30%;
+      height: 5rem;
+    }
+    #Open{
+        background-position: center;
+        background-color: black;
+        padding: 0 40px;
+    }
+}

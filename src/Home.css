@@ -1,0 +1,106 @@
+.homeTitle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 100;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.064);
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+#homeH1{
+    font-size: 5rem;
+    opacity: 0; 
+    animation: fadeSlideUp 2s ease-in-out forwards;
+}
+
+@keyframes fadeSlideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+.homeTitle a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: large;
+}
+.homeTitle .btn:hover{
+    background-color: greenyellow;
+}
+#carouselExampleInterval img{
+    height: 800px;
+}
+#carouselExampleInterval{
+    margin-bottom: 5px;
+}
+.homeGallery{
+    text-align: center;
+    align-items: center;
+    margin: 9px 35% 0 35%;
+    background: linear-gradient(to left,coral,rgb(4, 4, 238));
+    color:white;
+    border: 2px solid red;
+    border-radius: 30px;
+}
+#homeBtn{
+    width: fit-content;
+    height: 60px;
+    margin: 0px 12px 5px 12px;
+    border-radius: 30px;
+    font-size: 20px;;
+    font-weight: 700;
+    outline: none;
+    border:none;
+    cursor: pointer;
+    text-align: center;
+    background: linear-gradient(to left,coral,rgb(4, 4, 238));
+    border: 2px solid red;
+    box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+    transition: all .5s linear;
+    animation: popup .5s ease-in-out 0s infinite alternate-reverse;
+}
+#homeBtn:hover{
+    background: linear-gradient(to right,coral,rgb(4, 4, 238));
+    border: 2px solid greenyellow;
+    transform: scale(105%);
+}
+@keyframes popup{
+    from{
+        transform: scale(100%);
+    }
+    to{
+        transform: scale(105%);
+    }
+}
+.submit-button:hover{
+    background: #31279d;
+}
+.homeLink{
+    text-decoration: none;
+    color:#fff;
+}
+
+@media only screen and (max-width: 992px){
+    .homeTitle{
+       top:480px;
+    }
+    #homeH1{
+        font-size: 20px;
+    }
+    #carouselExampleInterval img{
+        height: 480px;
+    }
+   #homeBtn{
+    height: 70px;
+   }
+}

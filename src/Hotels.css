@@ -1,0 +1,228 @@
+.hotelsHeading{
+  color: rgb(137, 33, 248);
+  background-color: aquamarine;
+}
+#card1{
+  width: 100%;
+  height: 12rem;
+  background-image: url('/public/hotelImg/jw.jpg');
+  background-size: cover;
+  background-position: center;
+  animation: card1 10s linear 0s infinite normal;
+}
+#hotels a{
+  text-decoration: none;
+color: white;
+}
+@keyframes card1{
+  0%,34%{
+      background-image: url('/public/hotelImg/jw.jpg');
+  } 
+  35%,67%{
+      background-image: url('/public/hotelImg/jw1.jpg');
+  }
+  68%,100%{
+      background-image: url('/public/hotelImg/jw2.jpg');
+  }
+}
+
+#card2{
+        width: 100%;
+        height: 12rem;
+        background-image: url('/public/hotelImg/arista1.jpg');
+        background-size: cover;
+        background-position: center;
+        animation: card2 10s linear 0s infinite normal;
+      }
+      @keyframes card2{
+        0%,34%{
+            background-image: url('/public/hotelImg/arista.jpeg');
+        } 
+        35%,67%{
+            background-image: url('/public/hotelImg/arista1.jpg');
+        }
+        68%,100%{
+            background-image: url('/public/hotelImg/arista2.jpeg');
+        }
+      }
+
+      
+      #card3{
+        width: 100%;
+        height: 12rem;
+        background-image: url('/public/hotelImg/taj.jpg');
+        background-size: cover;
+        background-position: center;
+        animation: card3 10s linear 0s infinite normal;
+      }
+      @keyframes card3{
+        0%,34%{
+            background-image: url('/public/hotelImg/taj.jpg');
+        } 
+        35%,67%{
+            background-image: url('/public/hotelImg/taj1.jpeg');
+        }
+        68%,100%{
+            background-image: url('/public/hotelImg/taj2.jpeg');
+        }
+      }
+
+      #card4{
+        width: 100%;
+        height: 12rem;
+        background-image: url('/public/hotelImg/ragenta.jpg');
+        background-size: cover;
+        background-position: center;
+        animation: card4 10s linear 0s infinite normal;
+      }
+      @keyframes card4{
+        0%,34%{
+            background-image: url('/public/hotelImg/ragenta.jpg');
+        } 
+        35%,67%{
+            background-image: url('/public/hotelImg/ragenta1.jpg');
+        }
+        68%,100%{
+            background-image: url('/public/hotelImg/ragenta2.jpg');
+        }
+      }
+
+      #card5{
+        width: 100%;
+        height: 12rem;
+        background-image: url('/public/hotelImg/hyatt.jpg');
+        background-size: cover;
+        background-position: center;
+        animation: card5 10s linear 0s infinite normal;
+      }
+      @keyframes card5{
+        0%,34%{
+            background-image: url('/public/hotelImg/hyatt.jpg');
+        } 
+        35%,67%{
+            background-image: url('/public/hotelImg/hyatt1.jpg');
+        }
+        68%,100%{
+            background-image: url('/public/hotelImg/hyatt2.jpg');
+        }
+      }
+
+      #card6{
+        width: 100%;
+        height: 12rem;
+        background-image: url('/public/hotelImg/mountview.jpg');
+        background-size: cover;
+        background-position: center;
+        animation: card6 10s linear 0s infinite normal;
+      }
+      @keyframes card6{
+        0%,34%{
+            background-image: url('/public/hotelImg/mountview.jpg');
+        } 
+        35%,67%{
+            background-image: url('/public/hotelImg/mountview1.jpg');
+        }
+        68%,100%{
+            background-image: url('/public/hotelImg/mountview2.jpg');
+        }
+      }
+
+      #card7{
+        width: 100%;
+        height: 12rem;
+        background-image: url('/public/hotelImg/novotel.jpg');
+        background-size: cover;
+        background-position: center;
+        animation: card7 10s linear 0s infinite normal;
+      }
+      @keyframes card7{
+        0%,34%{
+            background-image: url('/public/hotelImg/novotel.jpg');
+        } 
+        35%,67%{
+            background-image: url('/public/hotelImg/novotel1.jpg');
+        }
+        68%,100%{
+            background-image: url('/public/hotelImg/novotel2.jpg');
+        }
+      }
+
+      #card8{
+        width: 100%;
+        height: 12rem;
+        background-image: url('/public/hotelImg/glades.jpg');
+        background-size: cover;
+        background-position: center;
+        animation: card8 10s linear 0s infinite normal;
+      }
+      @keyframes card8{
+        0%,34%{
+            background-image: url('/public/hotelImg/glades.jpg');
+        } 
+        35%,67%{
+            background-image: url('/public/hotelImg/glades1.jpg');
+        }
+        68%,100%{
+            background-image: url('/public/hotelImg/glades2.jpg');
+        }
+      }
+
+      #card9{
+        width: 100%;
+        height: 12rem;
+        background-image: url('/public/hotelImg/holiday.jpg');
+        background-size: cover;
+        background-position: center;
+        animation: card9 10s linear 0s infinite normal;
+      }
+      @keyframes card9{
+        0%,34%{
+            background-image: url('/public/hotelImg/holiday.jpg');
+        } 
+        35%,67%{
+            background-image: url('/public/hotelImg/holiday1.jpg');
+        }
+        68%,100%{
+            background-image: url('/public/hotelImg/holiday2.jpg');
+        }
+      }
+
+      #card10{
+        width: 100%;
+        height: 12rem;
+        background-image: url('/public/hotelImg/velvet.jpg');
+        background-size: cover;
+        background-position: center;
+        animation: card10 10s linear 0s infinite normal;
+      }
+      @keyframes card10{
+        0%,34%{
+            background-image: url('/public/hotelImg/velvet.jpg');
+        } 
+        35%,67%{
+            background-image: url('/public/hotelImg/velvet1.jpg');
+        }
+        68%,100%{
+            background-image: url('/public/hotelImg/velvet2.jpg');
+        }
+      }
+
+      #card11{
+        width: 100%;
+        height: 12rem;
+        background-image: url('/public/hotelImg/oyester.jpg');
+        background-size: cover;
+        background-position: center;
+        animation: card11 10s linear 0s infinite normal;
+      }
+      @keyframes card11{
+        0%,34%{
+            background-image: url('/public/hotelImg/oyester.jpg');
+        } 
+        35%,67%{
+            background-image: url('/public/hotelImg/oyester1.jpg');
+        }
+        68%,100%{
+            background-image: url('/public/hotelImg/oyester2.jpg');
+        }
+      }

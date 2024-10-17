@@ -1,0 +1,47 @@
+.aboutWelcome {
+    height: 50px;
+    overflow: hidden;
+    animation: welcome 3s linear forwards;
+    white-space: nowrap; 
+}
+
+@keyframes welcome {
+    from {
+        width: 0;
+    }
+    to {
+        width: 460px; /* Change this to whatever width you want */
+    }
+}
+
+
+
+.aboutInfo{
+    width:10rem;
+    border: 2px solid bisque;
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+    transition: all 0.5s linear;
+}
+.aboutInfo i{
+    color: coral;
+    font-size: 50px;
+    transition: all 0.5s linear;
+}
+.aboutInfo:hover i{
+    transform: scale(105%);
+    color: cornflowerblue;
+}
+.aboutInfo:hover{
+    transform: scale(105%);
+    border: 2px solid blue;
+}
+figure img{
+    rotate: 10deg;
+    transition: all 0.5s ease-in-out;
+    margin-top: 30px;
+}
+figure img:hover{
+    transform: scale(105%);
+    rotate: -15deg;
+}
